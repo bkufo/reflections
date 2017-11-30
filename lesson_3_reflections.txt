@@ -14,6 +14,11 @@ A: Forks are clones that are done for me by Github so that my repo is hosted
 on their server as a remote. A clone is when i get a local copy of a repo on my
 local working directory. A branch is a commit of my repository with a special 
 label.
+Fork is when i want to have a clone of another person's repo but have GitHub do
+all the heavy work for me, and also retain a reference to the other person, so
+they get credit for their work. A branch allows me to work on feature/bugs on 
+my own so that mainline is always stable and errors can be easily fixed while 
+customers are not affected.
    
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
