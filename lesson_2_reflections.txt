@@ -11,11 +11,16 @@ commit and what to exclude. Stuff here is ready to be committed.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+A: I add the changes that i want to make, one logical change at a time.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+A: Use a branch when i want to split off my development in another direction
+while keeping the master intact, but still having everything tracked
 
 How do the diagrams help you visualize the branch structure?
+A: I was able to see which commits are unreachable and i was able to understand
+the idea of the detached HEAD. Also better understanding parents.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
