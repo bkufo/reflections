@@ -24,6 +24,14 @@ the idea of the detached HEAD. Also better understanding parents.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+A: A new commit. It's represented in that way because it has two parents.
+
+Other info: If i delete a branch after merging it to master, i am only deleting 
+the label. The commits are still present and findable. 
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+A: pros of automatic merging is that it's fast and accurate and doesn't try to
+do too much by itself. It also has all the history.
+con of auto merge is that it can fall over simple merges which would otherwise
+make sense to me as a user.
